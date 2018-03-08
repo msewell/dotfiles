@@ -35,7 +35,7 @@ chsh -s $(which zsh)
 #mkdir $HOME/Sites
 
 # Symlink the Mackup config file to the home directory
-ln -s ./.mackup.cfg $HOME/.mackup.cfg
+ln -s .mackup.cfg ~/.mackup.cfg
 
 # Set up Ruby environment
 rbenv install 2.5.0
