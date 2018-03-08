@@ -88,7 +88,7 @@ cask 'adobe-creative-cloud'
 #cask 'font-source-code-pro'
 #cask 'font-source-sans-pro'
 #cask 'font-source-serif-pro'
-cask 'font-fira-code'
+cask 'caskroom/fonts/font-fira-code'
 
 # Install Mac App Store apps
 #mas '1Password', id: 443987910
