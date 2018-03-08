@@ -75,6 +75,7 @@ cask 'intellij-idea'
 cask 'dash'
 cask 'appcode'
 cask 'adobe-creative-cloud'
+cask 'keepassxc'
 
 # Quicklook
 #cask 'qlcolorcode'
