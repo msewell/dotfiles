@@ -3,17 +3,17 @@
 # Usage: work <dirname in ~/Sites directory>
 
 # Define project location
-PROJECT=$HOME/Sites/$@
+#PROJECT=$HOME/Sites/$@
 
 # Open Tower project
-gittower $PROJECT
+#gittower $PROJECT
 
 # Open PhpStorm project
-open -a /Applications/PhpStorm.app $PROJECT
+#open -a /Applications/PhpStorm.app $PROJECT
 
 # Stop all running virtual machines
-vagrant halt all
+#vagrant halt all
 
 # Start virtual machine for project
-cd $PROJECT
-vagrant up
+#cd $PROJECT
+#vagrant up
