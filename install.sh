@@ -43,6 +43,7 @@ ln -s .mackup.cfg ~/.mackup.cfg
 # Set up Ruby environment
 rbenv install 2.5.0
 rbenv global 2.5.0
+eval "$(rbenv init -)"
 gem install bundler
 
 # Set macOS preferences
