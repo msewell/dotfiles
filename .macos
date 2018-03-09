@@ -84,6 +84,10 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bo
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
+# Enable Bluetooth menu bar item
+defaults write 'com.apple.systemuiserver' 'NSStatusItem Visible com.apple.menuextra.bluetooth' -bool true
+defaults write 'com.apple.systemuiserver' 'menuExtras' -array-add '/System/Library/CoreServices/Menu Extras/Bluetooth.menu'
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
