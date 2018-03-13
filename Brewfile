@@ -29,6 +29,7 @@ brew 'mas'
 #brew 'wget'
 brew 'ripgrep'
 brew 'p7zip'
+brew 'thefuck'
 
 # Development
 #brew 'php72'
