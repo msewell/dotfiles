@@ -30,6 +30,7 @@ brew 'mas'
 brew 'ripgrep'
 brew 'p7zip'
 brew 'thefuck'
+brew 'git-standup'
 
 # Development
 #brew 'php72'
