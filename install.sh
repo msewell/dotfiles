@@ -40,6 +40,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Symlink the Mackup config file to the home directory
 ln -s .mackup.cfg ~/.mackup.cfg
 
+# Symlink iCloud folder
+ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs ~/iCloud
+
 # Set up Ruby environment
 rbenv install 2.5.0
 rbenv global 2.5.0
