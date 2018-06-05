@@ -78,6 +78,7 @@ cask 'dash'
 cask 'appcode'
 cask 'adobe-creative-cloud'
 cask 'keepassxc'
+cask 'corelocationcli'
 
 # Quicklook
 #cask 'qlcolorcode'
