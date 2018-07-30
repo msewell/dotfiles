@@ -401,6 +401,8 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 # Disable continuous spell checking
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
+# Enable display of touches in Simulator (https://twitter.com/liamnichols_/status/1018812142693253120)
+defaults write http://com.apple.iphonesimulator ShowSingleTouches -int 1
 
 ###############################################################################
 # Kill affected applications                                                  #
